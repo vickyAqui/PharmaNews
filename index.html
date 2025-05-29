@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PharmaNews - Notícias Farmacêuticas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">            <div class="logo">
+                <h1><a href="index.html" style="text-decoration: none; color: inherit;">PharmaNews</a></h1>
+            </div><nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="active">Notícias</a></li>
+                    <li><a href="artigos.html">Artigos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="date">11 de Junho de 2025</div>
+                <h2>Insulina no Contexto de Ganho de Massa</h2>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?ixlib=rb-4.0.3" alt="Representação de treino e nutrição">
+                </div>
+                <p class="hero-summary">
+                    A insulina, conhecida por controlar o açúcar no sangue, também é aliada poderosa no ganho de massa muscular. 
+                    Entenda como esse hormônio age e o que fazer (ou evitar) pra aproveitar seus benefícios sem cair em armadilhas.
+                </p>
+                <button class="cta-button" onclick="showArticle()">Leia Mais</button>
+            </div>
+        </div>
+    </section>
+
+    <article class="full-article" id="fullArticle" style="display: none;">
+        <div class="container">
+            <h1>Insulina no Contexto de Ganho de Massa</h1>
+            <h2>Muito além do açúcar: o papel anabólico da insulina no corpo e sua influência direta na hipertrofia muscular.</h2>
+
+            <section class="article-section">
+                <h3><i class="fas fa-flask"></i> O que é a Insulina?</h3>
+                <p>A insulina é um hormônio anabólico produzido pelo pâncreas. Sua principal função é regular os níveis de glicose no sangue, promovendo o armazenamento de nutrientes nos músculos, fígado e gordura.</p>
+            </section>
+
+            <section class="article-section">
+                <h3><i class="fas fa-candy-cane"></i> Glicose: combustível das células</h3>
+                <p>A glicose é o principal carboidrato que alimenta nossas células. Após a ingestão, ela circula no sangue e, com a ajuda da insulina, entra nas células para gerar energia.</p>
+            </section>
+
+            <section class="article-section">
+                <h3><i class="fas fa-cogs"></i> Como a insulina age no corpo?</h3>
+                <ul>
+                    <li>Liberação após refeições com carboidratos.</li>
+                    <li>Impede a quebra muscular.</li>
+                    <li>Estimula o armazenamento de glicose, aminoácidos e lipídios.</li>
+                    <li>Cria um ambiente ideal para o crescimento muscular.</li>
+                </ul>
+            </section>
+
+            <section class="article-section">
+                <h3><i class="fas fa-dumbbell"></i> Insulina e os 3 Pilares do Ganho de Massa</h3>
+                
+                <div class="pillar">
+                    <h4>1. Atividade Física</h4>
+                    <ul>
+                        <li>Aumenta a sensibilidade à insulina.</li>
+                        <li>Facilita o transporte de nutrientes para os músculos.</li>
+                        <li>Potencializa o "efeito anabólico" pós-treino.</li>
+                    </ul>
+                </div>
+
+                <div class="pillar">
+                    <h4>2. Alimentação</h4>
+                    <ul>
+                        <li>Carboidratos e proteínas de qualidade = liberação equilibrada de insulina.</li>
+                        <li>Excesso de açúcar refinado e sedentarismo = resistência insulínica → mais gordura, menos músculo.</li>
+                    </ul>
+                </div>
+
+                <div class="pillar">
+                    <h4>3. Sono e Descanso</h4>
+                    <ul>
+                        <li>Sono profundo = mais sensibilidade à insulina + liberação de GH.</li>
+                        <li>Pouco sono = mais cortisol + menos hipertrofia.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="article-section warning">
+                <h3><i class="fas fa-exclamation-triangle"></i> Atenção com a insulina exógena</h3>
+                <p>O uso de insulina injetável sem orientação médica é perigoso. Pode causar hipoglicemia severa e acúmulo de gordura. Não é necessário (nem recomendado) pra quem só quer ganhar massa de forma natural.</p>
+            </section>
+
+            <section class="article-section conclusion">
+                <h3><i class="fas fa-check-circle"></i> Conclusão</h3>
+                <p>A insulina é muito mais que um "remédio de diabético". Entender seu papel no corpo é essencial pra quem busca resultados reais no treino e na saúde. Mas atenção: equilíbrio e informação são a chave!</p>
+            </section>
+        </div>
+    </article>    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sobre Nós</h3>
+                    <p>O PharmaNews é sua fonte confiável de informações sobre farmacologia esportiva e saúde.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Notícias</a></li>
+                        <li><a href="artigos.html">Artigos</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Conecte-se</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PharmaNews. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
